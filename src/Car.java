@@ -8,6 +8,13 @@ public class Car {
         this.name = name;
     }
 
+    @Override
+    public String toString() {
+        return "Car{" +
+                "name='" + name + '\'' +
+                '}';
+    }
+
     public String getName() {
         return name;
     }
